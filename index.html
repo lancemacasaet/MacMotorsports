@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us | MAC Motorsports</title>
+        <link rel="stylesheet" href="styles.css">
+        <script defer src="scripts.js"></script> 
+    </head>
+    <body>
+    
+        <header class="logo-header">
+            <img src="logo_png.png" alt="MAC Motorsports Logo" class="logo">
+        </header>
+    
+        <div class="nav-bar-container">
+            <nav class="navbar">
+                <span class="hamburger">&#9776;</span> 
+                <div class="nav-links">
+                    <a href="index.html">HOME</a>
+                    <a href="browse.html">BROWSE</a>
+                    <a href="about.html">ABOUT US</a>
+                    <a href="contact.html">CONTACT US</a>
+                </div>
+            </nav>
+        </div>
+    
+
+    <main class ="home-page-main">
+        <div class="left-content">
+            <h1>Welcome to <em>MAC Motorsports!</em></h1>
+            <p>If you need to buy a motorcycle but your budget is tight, a good solution is to buy a pre-loved motorcycle unit here at <strong>MAC Motorsports</strong>! It is more affordable and you have a great selection of quality motorcycles.</p>
+            <a href="contact.html" class="inquire-button">Inquire now!</a>
+        </div>
+    
+        <div class="right-content">
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/kF19bzTJKtM?t=423s" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </main>
+
+    <section>
+        <h2>Brands We Offer</h2>
+        <table class="brands-table">
+            <tr>
+                <td><img src="apr.png" alt="Aprilia"></td>
+                <td><img src="bmw.jpg" alt="BMW"></td>
+                <td><img src="duc.png" alt="Ducati"></td>
+                <td><img src="cfm.jpg" alt="CF Moto"></td>
+            </tr>
+            <tr>
+                <td><img src="hdv.png" alt="Harley Davidson"></td>
+                <td><img src="hon.png" alt="Honda"></td>
+                <td><img src="kaw.png" alt="Kawasaki"></td>
+                <td><img src="ktm.png" alt="KTM"></td>
+            </tr>
+            <tr>
+                <td><img src="mva.png" alt="MV Agusta"></td>
+                <td><img src="suz.png" alt="Suzuki"></td>
+                <td><img src="tri.png" alt="Triumph"></td>
+                <td><img src="yam.png" alt="Yamaha"></td>
+            </tr>
+        </table>
+    </section>
+
+     <footer>
+        <img src="mm_jpeg.jpg" alt="Left Logo" class="footer-logo">
+            <div class="footer-text">
+            <div class="footer-icons">
+                <a href="https://www.instagram.com/lancemacasaet"><img src="ig_png.png" alt="Icon 1"></a>
+                <a href="https://www.facebook.com/lancemacasaet0104"><img src="fb_png.png" alt="Icon 2"></a>
+                <a href="https://x.com/lance_macasaet"><img src="x_png.png" alt="Icon 3"></a>
+            </div>
+            <p>Copyright &copy; 2024 MAC Motorsports Philippines. All rights reserved.</p>
+        </div>
+        <img src="mm_jpeg.jpg" alt="Right Logo" class="footer-logo">
+    </footer>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('navMenu');
+            menu.classList.toggle('active');
+        }
+            document.addEventListener("DOMContentLoaded", function () {
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', function () {
+            navLinks.classList.toggle('active');
+        });
+    });
+    </script>
+</body>
+</html>
